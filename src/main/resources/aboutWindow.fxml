@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="AboutController"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AboutController">
+   <children>
+      <Label text="Welcome to HTML-TYPER v0.1" underline="true">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label prefHeight="31.0" prefWidth="581.0" text="Freeware. Share as much as you like">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label prefHeight="31.0" prefWidth="581.0" text="Authour: Lemandog">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label prefHeight="31.0" prefWidth="581.0" text="For latest release please visit:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Hyperlink onAction="#openLink" text="https://github.com/lemandog/HTML-TYPER/releases">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Hyperlink>
+      <Label prefHeight="31.0" prefWidth="581.0" text="Made: 1 january 2022 ">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>

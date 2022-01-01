@@ -10,7 +10,7 @@ public class Main extends Application {
         FXMLLoader loader = new FXMLLoader(Main.class.getResource("/mainWindow.fxml"));
         Parent root = loader.load();
         Scene scene = new Scene(root);
-
+        stage.setTitle("HTML - TYPER");
         stage.setMaxHeight(800);
         stage.setMinHeight(400);
         stage.setMaxWidth(1200);
